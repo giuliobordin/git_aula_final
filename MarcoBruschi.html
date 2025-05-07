@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <style>
+      :root {
+            --background-color: #121212;
+            --text-color: #E0E0E0;
+            --titles-color: #E94560;
+            --subs-color: #555555;
+            --links-color: #F9A826;
+        }
+
+        a {
+          color: var(--links-color);
+        }
+    </style>
+</head>
+
+<body style="background-color: var(--background-color);">
+  <div class="pb-5">
+    <div class="text-light p-3" style="background-color: #2A2A2A">
+      <h1 class="text-center">Marco Antônio Silva Bruschi</h1>
+    </div>
+
+    <div class="container d-flex flex-column justify-content-center my-3 border border-secondary rounded" style="background-color: #2A2A2A; color: var(--text-color);">
+      
+
+      <div class="d-flex flex-column my-3 mx-3">
+        <h2>Sobre mim:</h2>
+        <p>Olá, me chamo Marco Antônio Silva Bruschi, sou estudante de engenharia de software na PUCPR.
+          Tenho interesse em desenvolvimento de sistemas e criação de jogos.
+          Gosto de aplicar meus conhecimentos técnicos em projetos práticos e criativos, buscando sempre evoluir como desenvolvedor.</p>
+      </div>
+
+      <div class="accordion w-50 mx-2" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Habilidades Técnicas
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-dark text-light">Linguagens: HTML, CSS, JavaScript, Python, Game Maker Language e C#.<br>Ferramentas: Visual Studio Code, Visual Studio, Game Maker Studio 2 e Git.<br>Frameworks: Bootstrap.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Formação Acadêmica
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-dark text-light">
+              Pontifícia Universidade Católica do Paraná<br>Bacharelado, Engenharia de Software<br>(2025 - 2028)
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-dark text-light" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Projetos Pessoais
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body d-flex flex-column bg-dark">
+              <a href="https://github.com/MarcoBruschi/To-DoList">Lista de Tarefas (HTML/CSS/JS).</a>
+              <a href="https://github.com/MarcoBruschi/Dialog-System-GML">Sistema de dialogo em Game Maker Language.</a>
+              <a href="https://github.com/MarcoBruschi/Login-page">Página de login.</a>
+              <a href="https://www.youtube.com/watch?v=gElLihKQyHw&t=790s&ab_channel=BisteconeLive">Um dos jogos que eu fiz para um streamer.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column my-3 mx-3">
+        <h2>Contato: </h2>
+        <a href="https://github.com/MarcoBruschi">Github</a>
+        <a href="https://www.linkedin.com/in/marco-silva-bruschi-48470134a/">LinkedIn</a>
+      </div>
+
+      <div class="d-flex flex-column mx-3">
+        <h2>Idiomas</h2>
+        <div class="d-flex flex-column">
+          <p>Inglês: Avançado.</p>
+          <p>Português: Fluente.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
